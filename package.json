@@ -1,0 +1,37 @@
+{
+  "name": "linz-log-generator",
+  "version": "0.0.4",
+  "description": "parse or generate linz log for developer",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --opts test/mocha.opts",
+    "lint": "eslint -c .eslintrc.yml .",
+    "mocha": "mocha -R spec --recursive --bail",
+    "test": "npm run lint && npm run coverage"
+  },
+  "keywords": [
+    "videojj",
+    "linz",
+    "log"
+  ],
+  "repository": "git+https://github.com/liuwill/linz-log-generator.git",
+  "author": "liuwill <liuwill@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuwill/linz-log-generator/issues"
+  },
+  "homepage": "https://github.com/liuwill/linz-log-generator#readme",
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "yargs-parser": "^7.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "cross-env": "^5.0.5",
+    "eslint": "^4.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0",
+    "sinon": "^3.2.1",
+    "yargs": "^8.0.2"
+  }
+}
