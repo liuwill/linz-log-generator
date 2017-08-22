@@ -24,4 +24,4 @@ npm install --save linz-log-generator
 [quality-url]: https://codeclimate.com/github/liuwill/linz-log-generator
 [appveyor-image]: https://img.shields.io/appveyor/ci/liuwill/linz-log-generator/master.svg?style=flat-square
 [appveyor-url]: https://ci.appveyor.com/project/liuwill/linz-log-generator
-[codecov-image]: https://img.shields.io/codecov/c/github/codecov/linz-log-generator/master.svg?style=flat-square
+[codecov-image]: https://img.shields.io/codecov/c/github/liuwill/linz-log-generator.svg?style=flat-square
