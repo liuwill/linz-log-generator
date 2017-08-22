@@ -1,6 +1,6 @@
 {
   "name": "linz-log-generator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "parse or generate linz log for developer",
   "main": "index.js",
   "scripts": {
