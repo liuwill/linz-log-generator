@@ -2,6 +2,8 @@ language: node_js
 node_js:
   - "5.10.0"
   - "7.6.0"
+env:
+  CODECLIMATE_REPO_TOKEN: f5bd7988b624fafef5ab6054359058f834a368cd07022d778d860ff8e54c4782
 install:
   - npm install
 script:
