@@ -10,7 +10,7 @@ describe('#ipUtils', function () {
 
   describe('#generateRandIpBit()', function () {
     it('should generate ip bit', function () {
-      for(var i = 0; i < 10; i++){
+      for (var i = 0; i < 10; i++) {
         var randBit = ipUtils.generateRandIpBit()
 
         assert.isNumber(randBit)
@@ -22,7 +22,7 @@ describe('#ipUtils', function () {
 
   describe('#generateRandomIp()', function () {
     it('should generate random ip', function () {
-      for(var i = 0; i < 5; i++){
+      for (var i = 0; i < 5; i++) {
         var randIp = ipUtils.generateRandomIp()
 
         assert.isString(randIp)
@@ -35,4 +35,19 @@ describe('#ipUtils', function () {
     })
   })
 
+  describe('#trimString()', function () {
+    it('should trim string works', function () {
+      var blankStr = ''
+      var sampleStr0 = 'http://'
+      var sampleStr1 = ' ht tp://'
+      var sampleStr2 = 'http://  '
+      var sampleStr3 = ' http://2  '
+
+      expect(ipUtils.trimString(blankStr)).to.have.length(blankStr.length)
+      expect(ipUtils.trimString(sampleStr0)).to.have.length(sampleStr0.length)
+      expect(ipUtils.trimString(sampleStr1)).to.have.length(sampleStr1.length - 1)
+      expect(ipUtils.trimString(sampleStr2)).to.have.length(sampleStr2.length - 2)
+      expect(ipUtils.trimString(sampleStr3)).to.have.length(sampleStr3.length - 3)
+    })
+  })
 })

@@ -9,7 +9,7 @@ module.exports = {
       type: 'headers'
     },
     refer: {
-      key: 'reference',
+      key: 'referer',
       type: 'headers'
     }
   },

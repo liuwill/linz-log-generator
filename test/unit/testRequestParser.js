@@ -48,6 +48,7 @@ describe('#requestParser', function () {
 
       assert.isObject(headerResult)
       expect(headerResult).to.have.property('user-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3188.2 Safari/537.36')
+      expect(headerResult).to.have.property('referer', 'http://www.qq.com')
     })
   })
 
