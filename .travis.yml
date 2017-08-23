@@ -3,7 +3,7 @@ node_js:
   - "5.10.0"
   - "7.6.0"
 env:
-  CODECLIMATE_REPO_TOKEN: f5bd7988b624fafef5ab6054359058f834a368cd07022d778d860ff8e54c4782
+  CODECLIMATE_REPO_TOKEN: 83acab98ae4f3e81912f1c4b9c0128f5432734661b362c4f5d240164935e37dd
 install:
   - npm install
 script:

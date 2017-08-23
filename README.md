@@ -20,9 +20,17 @@ var ipUtils = logGenerator.utils
 var demoRule = { /* ... config rule ... */ }
 var generateLogFromCurl = logGenerator.generateLogFromCurl
 
-var sampleCurl = "curl 'http://test-va.sample.com/va.gif?cat=52&s=3&ver=3&n=66938233&ch=ch1&proj=proj2&br=&rs=854x480&lang=zh-CN&dr=0&y=0&x=0&sdk=dev&bu=videoos&bu-ser=2.0&a=H1PG9rNCl&v=v3&c=cc&tag=t4&dg=d5' -H 'Accept-Encoding: gzip, deflate' -H 'Accept-Language: zh-CN,zh;q=0.8' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3188.2 Safari/537.36' -H 'Accept: image/webp,image/apng,image/*,*/*;q=0.8' -H 'Referer: http://www.qq.com' -H 'Connection: keep-alive' --compressed"
+var sampleCurl = ['curl']
+sampleCurl.push("'http://test-va.sample.com/va.gif?cat=52&s=3&ver=3&n=66938233&ch=ch1&proj=proj2&br=&rs=854x480&lang=zh-CN&dr=0&y=0&x=0&sdk=dev&bu=videoos&bu-ser=2.0&a=H1PG9rNCl&v=v3&c=cc&tag=t4&dg=d5'")
+sampleCurl.push("-H 'Accept-Encoding: gzip, deflate'")
+sampleCurl.push("-H 'Accept-Language: zh-CN,zh;q=0.8'")
+sampleCurl.push("-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3188.2 Safari/537.36'")
+sampleCurl.push("-H 'Accept: image/webp,image/apng,image/*,*/*;q=0.8'")
+sampleCurl.push("-H 'Referer: http://www.qq.com'")
+sampleCurl.push("-H 'Connection: keep-alive'")
+sampleCurl.push("--compressed")
 
-const resultLog = generateLogFromCurl('127.0.0.1', sampleCurl, demoRule)
+const resultLog = generateLogFromCurl('127.0.0.1', sampleCurl.join(' '), demoRule)
 
 console.log(resultLog)
 
