@@ -1,4 +1,4 @@
-# linz-log-generator
+# curl-log-generator
   [![Build Status][travis-image]][travis-url]
   [![NPM version][npm-image]][npm-url]
   [![Code Climate][quality-image]][quality-url]
@@ -9,13 +9,13 @@ just generate log from curl code, we could define generate rule for our log.
 ## install
 
 ``` shell
-npm install --save linz-log-generator
+npm install --save curl-log-generator
 ```
 
 ## example
 
 ```javascript
-const logGenerator = require('linz-log-generator')
+const logGenerator = require('curl-log-generator')
 var ipUtils = logGenerator.utils
 var demoRule = { /* ... config rule ... */ }
 var generateLogFromCurl = logGenerator.generateLogFromCurl
@@ -45,13 +45,13 @@ console.log(resultLog)
 
   [MIT](./LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/linz-log-generator.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/linz-log-generator
-[travis-image]: https://img.shields.io/travis/liuwill/linz-log-generator/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/liuwill/linz-log-generator
-[quality-image]: https://img.shields.io/codeclimate/github/liuwill/linz-log-generator.svg?style=flat-square
-[quality-url]: https://codeclimate.com/github/liuwill/linz-log-generator
-[appveyor-image]: https://img.shields.io/appveyor/ci/liuwill/linz-log-generator/master.svg?style=flat-square
-[appveyor-url]: https://ci.appveyor.com/project/liuwill/linz-log-generator
-[codecov-image]: https://img.shields.io/codecov/c/github/liuwill/linz-log-generator.svg?style=flat-square
-[codecov-url]: https://codecov.io/gh/liuwill/linz-log-generator
+[npm-image]: https://img.shields.io/npm/v/curl-log-generator.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/curl-log-generator
+[travis-image]: https://img.shields.io/travis/liuwill/curl-log-generator/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/liuwill/curl-log-generator
+[quality-image]: https://img.shields.io/codeclimate/github/liuwill/curl-log-generator.svg?style=flat-square
+[quality-url]: https://codeclimate.com/github/liuwill/curl-log-generator
+[appveyor-image]: https://img.shields.io/appveyor/ci/liuwill/curl-log-generator/master.svg?style=flat-square
+[appveyor-url]: https://ci.appveyor.com/project/liuwill/curl-log-generator
+[codecov-image]: https://img.shields.io/codecov/c/github/liuwill/curl-log-generator.svg?style=flat-square
+[codecov-url]: https://codecov.io/gh/liuwill/curl-log-generator

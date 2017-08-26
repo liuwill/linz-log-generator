@@ -1,5 +1,5 @@
 {
-  "name": "linz-log-generator",
+  "name": "curl-log-generator",
   "version": "0.0.5",
   "description": "parse or generate linz log for developer",
   "main": "index.js",
@@ -14,13 +14,13 @@
     "linz",
     "log"
   ],
-  "repository": "git+https://github.com/liuwill/linz-log-generator.git",
+  "repository": "git+https://github.com/liuwill/curl-log-generator.git",
   "author": "liuwill <liuwill@live.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liuwill/linz-log-generator/issues"
+    "url": "https://github.com/liuwill/curl-log-generator/issues"
   },
-  "homepage": "https://github.com/liuwill/linz-log-generator#readme",
+  "homepage": "https://github.com/liuwill/curl-log-generator#readme",
   "dependencies": {
     "querystring": "^0.2.0",
     "yargs-parser": "^7.0.0"
