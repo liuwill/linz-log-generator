@@ -1,7 +1,7 @@
 {
   "name": "curl-log-generator",
-  "version": "0.0.5",
-  "description": "parse or generate linz log for developer",
+  "version": "0.0.6",
+  "description": "parse curl command and generate log for developer",
   "main": "index.js",
   "scripts": {
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --opts test/mocha.opts",
@@ -10,8 +10,8 @@
     "test": "npm run lint && npm run coverage"
   },
   "keywords": [
-    "videojj",
-    "linz",
+    "curl",
+    "utility",
     "log"
   ],
   "repository": "git+https://github.com/liuwill/curl-log-generator.git",

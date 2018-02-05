@@ -1,8 +1,8 @@
 # curl-log-generator
   [![Build Status][travis-image]][travis-url]
   [![NPM version][npm-image]][npm-url]
-  [![Code Climate][quality-image]][quality-url]
   [![Codecov branch][codecov-image]][codecov-url]
+  [![Maintainability][quality-image]][quality-url]
 
 just generate log from curl code, we could define generate rule for our log.
 
@@ -49,8 +49,8 @@ console.log(resultLog)
 [npm-url]: https://npmjs.org/package/curl-log-generator
 [travis-image]: https://img.shields.io/travis/liuwill/curl-log-generator/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/liuwill/curl-log-generator
-[quality-image]: https://img.shields.io/codeclimate/github/liuwill/curl-log-generator.svg?style=flat-square
-[quality-url]: https://codeclimate.com/github/liuwill/curl-log-generator
+[quality-image]: https://api.codeclimate.com/v1/badges/a9d52950bfc66fb799ab/maintainability
+[quality-url]: https://codeclimate.com/github/liuwill/curl-log-generator/maintainability
 [appveyor-image]: https://img.shields.io/appveyor/ci/liuwill/curl-log-generator/master.svg?style=flat-square
 [appveyor-url]: https://ci.appveyor.com/project/liuwill/curl-log-generator
 [codecov-image]: https://img.shields.io/codecov/c/github/liuwill/curl-log-generator.svg?style=flat-square
