@@ -1,5 +1,6 @@
 # curl-log-generator
   [![Build Status][travis-image]][travis-url]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fliuwill%2Fcurl-log-generator.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fliuwill%2Fcurl-log-generator?ref=badge_shield)
   [![NPM version][npm-image]][npm-url]
   [![Codecov branch][codecov-image]][codecov-url]
   [![Maintainability][quality-image]][quality-url]
@@ -55,3 +56,6 @@ console.log(resultLog)
 [appveyor-url]: https://ci.appveyor.com/project/liuwill/curl-log-generator
 [codecov-image]: https://img.shields.io/codecov/c/github/liuwill/curl-log-generator.svg?style=flat-square
 [codecov-url]: https://codecov.io/gh/liuwill/curl-log-generator
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fliuwill%2Fcurl-log-generator.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fliuwill%2Fcurl-log-generator?ref=badge_large)
